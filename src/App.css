@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  
+  margin-left: 200px;
+  margin-top: 120px;
 }
 
 .App-logo {
@@ -19,4 +22,64 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.con{
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+.b{
+  border:2px solid #7aa19e;
+  width: 250px;
+  height:60px;
+  margin:20px;
+  transition-duration: 2s;
+  color:#7aa19e;
+  
+}
+
+
+#b1{
+  flex:1;
+}
+
+#b2{
+  flex:1;
+}
+
+#b3{
+  flex:1;
+}
+
+.blank{
+  background:lightgrey;
+  margin-left: 20px;
+  width: 843px;
+  height: 130px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 130px;
+  border-radius: 8px;
+}
+
+#text{
+  font-size: 30px;
+  color:#565656;
+  margin-top:10px;
+}
+.b:hover{
+  cursor: pointer;
+}
+
+.fill{
+  background: #5DBCD2;
+  transition-duration: 2s;
+}
+
+#textclr{
+  color:white;
+  transition-duration: 2s;
 }
